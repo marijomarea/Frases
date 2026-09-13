@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mensaje para hoy</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: radial-gradient(circle at 50% 20%, #7d0d16 0%, #4a0208 50%, #2b0004 100%);
+      color: #ffffff;
+      font-family: 'Lora', serif;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .card {
+      max-width: 420px;
+      width: 100%;
+      text-align: center;
+      padding: 30px 20px;
+      position: relative;
+    }
+
+    .title-arc {
+      font-family: 'Cinzel', serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      letter-spacing: 3px;
+      color: #f3e5ab;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    }
+
+    .icon-container {
+      margin: 20px 0 25px 0;
+    }
+
+    .rose-icon {
+      width: 65px;
+      height: 65px;
+      filter: drop-shadow(0 4px 6px rgba(0,0,0,0.4));
+    }
+
+    .verse-text {
+      font-size: 1.15rem;
+      line-height: 1.6;
+      color: #ffffff;
+      font-weight: 400;
+      margin-bottom: 25px;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    }
+
+    .reference {
+      font-family: 'Cinzel', serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #f3e5ab;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1 class="title-arc">MENSAJE PARA HOY</h1>
+    
+    <div class="icon-container">
+      <!-- Ícono vectorial de rosa blanca ultra liviano -->
+      <svg class="rose-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="32" cy="32" r="30" fill="#ffffff" fill-opacity="0.1"/>
+        <path d="M32 12C26 12 20 18 22 26C16 26 14 32 18 38C14 42 18 50 26 48C30 52 38 52 40 46C46 46 50 40 46 34C50 28 46 20 38 20C38 14 34 12 32 12Z" fill="#ffffff"/>
+        <path d="M32 20C29 20 27 23 28 27C25 27 24 30 26 33C24 35 26 39 30 38C32 40 36 40 37 37C40 37 42 34 40 31C42 28 40 24 36 24C36 21 34 20 32 20Z" fill="#f0f0f0"/>
+      </svg>
+    </div>
+
+    <p class="verse-text">
+      Venid luego, dice Jehová, y estemos a cuenta: si vuestros pecados fueren como la grana, como la nieve serán emblanquecidos; si fueren rojos como el carmesí, vendrán a ser como blanca lana. Si quisiereis y oyereis, comeréis el bien de la tierra;
+    </p>
+
+    <div class="reference">
+      ISAÍAS 1: 18 - 19
+    </div>
+  </div>
+
+</body>
+</html>
